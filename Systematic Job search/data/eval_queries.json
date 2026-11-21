@@ -1,0 +1,22 @@
+[
+  {"query": "machine learning internship for freshers", "relevant": ["J012", "J017", "J051"]},
+  {"query": "build chatbots using large language models", "relevant": ["J013", "J051", "J052"]},
+  {"query": "server side development with python", "relevant": ["J001", "J005"]},
+  {"query": "make mobile apps", "relevant": ["J030", "J031", "J032"]},
+  {"query": "work with spreadsheets and dashboards to find business insights", "relevant": ["J020", "J021", "J024"]},
+  {"query": "cloud infrastructure automation", "relevant": ["J026", "J027", "J028"]},
+  {"query": "protect a company from hackers", "relevant": ["J040", "J041"]},
+  {"query": "chip design hardware job", "relevant": ["J043", "J042"]},
+  {"query": "semantic search and ranking", "relevant": ["J016", "J013"]},
+  {"query": "design screens and user experience", "relevant": ["J038"]},
+  {"query": "finding and hiring candidates", "relevant": ["J048"]},
+  {"query": "image recognition with neural networks", "relevant": ["J015"]},
+  {"query": "writing articles and blogs", "relevant": ["J046", "J044"]},
+  {"query": "product manager role at a startup", "relevant": ["J035", "J036"]},
+  {"query": "automated software testing", "relevant": ["J033", "J034"]},
+  {"query": "stock market trading with statistics", "relevant": ["J025"]},
+  {"query": "Java backend internship", "relevant": ["J053", "J002"]},
+  {"query": "deploy machine learning models to production", "relevant": ["J018"]},
+  {"query": "personalised suggestions for users", "relevant": ["J019"]},
+  {"query": "website frontend with a javascript framework", "relevant": ["J007", "J008", "J009", "J011"]}
+]
