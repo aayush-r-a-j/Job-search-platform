@@ -1,2 +1,4 @@
-/Mini AI Agent
-/Project1_Code_Explanation.zip
+.venv/
+__pycache__/
+.vscode/
+*.zip
