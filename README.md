@@ -1,5 +1,8 @@
 # Job Search Platform
 
+**Live demo:** https://job-search-platform.streamlit.app/
+(If the app has been idle, click "wake up" and wait about a minute.)
+
 Find jobs by **meaning**, not just matching words. Search with plain English or upload a resume
 to get the best-matching jobs and your skill gap for each one.
 
@@ -20,6 +23,7 @@ Online (query):   query / resume ─► embedding ─► FAISS top-k (cosine sim
 - **Keyword baseline:** BM25 (`rank-bm25`)
 - **Resume matching:** PDF text extraction (`pypdf`) → 120-word chunks → averaged chunk embeddings → search
 - **Skill gap:** whole-word matching of each job's skills against the resume text
+- **Privacy:** uploaded resumes are processed in memory only; nothing is stored
 - **UI:** Streamlit, with a side-by-side semantic vs keyword comparison
 - **Find real openings:** each job card links to a LinkedIn and Indeed search for that role and
   city (the sample companies are fictional). If the data has an `apply_url` column, a direct

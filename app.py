@@ -135,6 +135,7 @@ with search_tab:
 
 with resume_tab:
     uploaded = st.file_uploader("Upload your resume (PDF)", type="pdf")
+    st.caption("🔒 Your resume is processed in memory and never stored.")
 
     if not uploaded:
         st.info("Upload a PDF resume to see the best matching jobs and which skills you're missing for each.")
